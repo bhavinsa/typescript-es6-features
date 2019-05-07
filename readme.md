@@ -12,12 +12,13 @@
 -  Rest operator
 
 
-    
-    npm i -g typescript
-    git clone https://github.com/bhavinsa/typescript-es6-features.git
-    cd typescript-es6-features
-    tsc --target es5 main.ts && node main.js
+```    
+npm i -g typescript
+git clone https://github.com/bhavinsa/typescript-es6-features.git
+cd typescript-es6-features
+tsc --target es5 main.ts && node main.js
 
+```
 
 	####  Version
 	ES5 - ECMAScript 5 - Supported all browser
