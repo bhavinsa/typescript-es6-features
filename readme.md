@@ -8,9 +8,10 @@
  - Arrow Function
 -  GET & SET Properties
 -  Module
--  Spread operator.
+-  Spread operator
 -  Rest operator
-
+-  Generator
+-  Destructuring
 
 ```    
 npm i -g typescript

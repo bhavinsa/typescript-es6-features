@@ -178,3 +178,29 @@ function demo(...part2) {
 }
 
 console.log(demo(1, 2, 3, 4, 5, 6))
+
+
+// Generator
+// function special with capability of puase and resume execution use of next()
+
+function* myGenerator() {
+    yield 1;
+    console.log("called after yield 1 called using next()");
+    yield 2;
+    console.log("called after yield 2 called using next()");
+}
+
+let mygen: any = myGenerator();
+console.log(mygen.next()); //{ value: 1, done: false }
+console.log(mygen.next()); //{ value: 2, done: false }
+console.log(mygen.next()); //{ value: undefined, done: true }
+
+
+// Destructuring
+// Destructuring lets you assign multiple variables at once.
+let students = ['budi', 'sinta', 'lusi'];
+let [first, second, third] = students;
+
+console.log(first); // 'budi'
+console.log(second); // 'sinta'
+console.log(third); // 'lusi'
